@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.woff2) format(woff2);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Bold.woff2) format(woff2);
+  font-weight: bold;
+}
+
+* {
+  font-family: Roboto;
+  color: #3872c2;
+}
+
+p {
+  font-size: 16;
+  letter-spacing: 0.1px;
+}
+
+.h1-heading {
+  font-family: Roboto;
+  text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+  font-size: 64;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.h2-heading {
+  font-size: 48;
+  letter-spacing: -0.1px;
+  font-weight: bold;
+}
+
+.h3-heading {
+  font-size: 24;
+  letter-spacing: -0.1px;
+}
+
+.h4-heading {
+  font-size: 18;
+}
+
+.h5-heading {
+  font-size: 32;
+  letter-spacing: -0.1px;
+}
+
+button {
+  background-color: #3872c2;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+  font-size: 16;
+  border: none;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
