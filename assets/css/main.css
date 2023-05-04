@@ -21,12 +21,23 @@ p {
 }
 
 .h1-heading {
+  animation: bigger-text 0.5s ease-out 0s 1 normal forwards;
   font-family: Roboto;
   text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
   font-size: 64;
   letter-spacing: -1px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@keyframes bigger-text {
+  0% {
+    transform: scale(0.94);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .h2-heading {
@@ -50,18 +61,48 @@ p {
   letter-spacing: -0.1px;
 }
 
-.hero-image {
-    border-radius: 20%;
+.rounded-corners {
+  border-radius: 20%;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border-box {
+  padding: 20px 40px 20px 40px;
+  border: 1px solid #ddd;
+}
+.box-shadow {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+  margin-bottom: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  aspect-ratio: 1/1;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.service-description {
+  display: flex; /*change to none, onClick->show*/
 }
 
 button {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
   background-color: #3872c2;
   color: white;
   text-transform: uppercase;
   letter-spacing: -0.1px;
   font-size: 16;
   border: none;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
   padding: 8px 48px 8px 48px;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -72,4 +113,24 @@ button:active {
   position: relative;
   top: 2px;
   left: 2px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  line-height: 40px;
+  padding: 0px 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 20px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
 }
