@@ -319,10 +319,16 @@
           <div>
             <div class="row">
               <h4 class="h4-heading col-11">Wie läuft das Erstgespräch ab?</h4>
-              <button class="col-1">V</button>
+              <button
+                id="faq1-button"
+                class="col-1"
+                onclick="showP('faq1', 'faq1-button')"
+              >
+                +
+              </button>
             </div>
             <div>
-              <p>
+              <p id="faq1" style="display: none" class="mb-5">
                 Beim ersten Treffen werde ich dir hauptsächlich zuhören, um
                 deine Ziele & Erfahrungen im Bereich Training und Ernährung
                 sowie deinen Gesundheitszustand zu verstehen. Des Weiteren
@@ -338,10 +344,16 @@
           <div>
             <div class="row">
               <h4 class="h4-heading col-11">Was ist eine Anamnese?</h4>
-              <button class="col-1">V</button>
+              <button
+                id="faq2-button"
+                class="col-1"
+                onclick="showP('faq2', 'faq2-button')"
+              >
+                +
+              </button>
             </div>
             <div>
-              <p>
+              <p id="faq2" style="display: none" class="mb-5">
                 Bei einer Anamnese stellen wir deine Grundfitness mit Hilfe von
                 Fragen fest, die du mir ehrlich beantwortest. Außerdem führen
                 wir am Ende noch eine Muskelfunktionsprüfung durch, in der wir
@@ -356,10 +368,16 @@
               <h4 class="h4-heading col-11">
                 Wie lange dauert eine Personal Training Einheit?
               </h4>
-              <button class="col-1">V</button>
+              <button
+                id="faq3-button"
+                class="col-1"
+                onclick="showP('faq3', 'faq3-button')"
+              >
+                +
+              </button>
             </div>
             <div>
-              <p>
+              <p id="faq3" style="display: none" class="mb-5">
                 In der Regel geht eine Personal Trainingseinheit über 60 oder 90
                 Minuten. Auf Nachfrage kann die Dauer einer Einheit gerne
                 individuell auf deine Wünsche und Vorstellungen angepasst
@@ -372,10 +390,16 @@
               <h4 class="h4-heading col-11">
                 Wo findet das Personal Training statt?
               </h4>
-              <button class="col-1">V</button>
+              <button
+                id="faq4-button"
+                class="col-1"
+                onclick="showP('faq4', 'faq4-button')"
+              >
+                +
+              </button>
             </div>
             <div>
-              <p>
+              <p id="faq4" style="display: none" class="mb-5">
                 Ich richte mich hierbei nach deinen Bedürfnissen. Das Personal
                 Training kann im Fitness-Studio, im Büro, bei dir zu Hause, oder
                 auch in der freien Natur stattfinden.
@@ -385,10 +409,16 @@
           <div>
             <div class="row">
               <h4 class="h4-heading col-11">Welche Zahlungsmittel gibt es?</h4>
-              <button class="col-1">V</button>
+              <button
+                id="faq5-button"
+                class="col-1"
+                onclick="showP('faq5', 'faq5-button')"
+              >
+                +
+              </button>
             </div>
             <div>
-              <p>
+              <p id="faq5" style="display: none" class="mb-5">
                 Bei Verhinderung können wir einen neuen Termin vereinbaren.
                 Termine können bis spätestens 24h vorher abgesagt, bzw.
                 verschoben werden, ansonsten werden sie verrechnet.
@@ -400,10 +430,16 @@
               <h4 class="h4-heading col-11">
                 Kann ich einen Termin ändern oder absagen?
               </h4>
-              <button class="col-1">V</button>
+              <button
+                id="faq6-button"
+                class="col-1"
+                onclick="showP('faq6', 'faq6-button')"
+              >
+                +
+              </button>
             </div>
             <div>
-              <p>
+              <p id="faq6" style="display: none" class="mb-5">
                 Es kann per Banküberweisung, Barzahlung oder PayPal bezahlt
                 werden. Die Trainings werden als Vorauszahlung beglichen.
               </p>
@@ -507,5 +543,7 @@
 
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
