@@ -127,7 +127,7 @@ button:active {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .contact-form textarea {
