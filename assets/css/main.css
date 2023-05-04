@@ -16,7 +16,7 @@
 }
 
 p {
-  font-size: 16;
+  font-size: 16px;
   letter-spacing: 0.1px;
 }
 
@@ -24,7 +24,7 @@ p {
   animation: bigger-text 0.5s ease-out 0s 1 normal forwards;
   font-family: Roboto;
   text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
-  font-size: 64;
+  font-size: 64px;
   letter-spacing: -1px;
   font-weight: bold;
   text-transform: uppercase;
@@ -41,23 +41,23 @@ p {
 }
 
 .h2-heading {
-  font-size: 48;
+  font-size: 48px;
   letter-spacing: -0.1px;
   font-weight: bold;
 }
 
 .h3-heading {
-  font-size: 24;
+  font-size: 24px;
   letter-spacing: -0.1px;
   font-weight: bold;
 }
 
 .h4-heading {
-  font-size: 18;
+  font-size: 18px;
 }
 
 .h5-heading {
-  font-size: 32;
+  font-size: 32px;
   letter-spacing: -0.1px;
 }
 
@@ -101,7 +101,7 @@ button {
   color: white;
   text-transform: uppercase;
   letter-spacing: -0.1px;
-  font-size: 16;
+  font-size: 16px;
   border: none;
   padding: 8px 48px 8px 48px;
   margin-top: 24px;
