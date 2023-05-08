@@ -389,7 +389,75 @@
         <h2 class="h2-heading text-center my-5">Das sagen meine Klienten</h2>
       </div>
       <div class="container">
-        <div class="row d-flex justify-content-around">
+        <div
+          id="carouselRatings"
+          class="carousel carousel-dark slide d-block d-md-none"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active mb-3 px-3" aria-current="true">
+              <div class="border-box box-shadow">
+                <p>
+                  “Coach Gianni ist einfach unglaublich! Er ist sehr sachkundig
+                  und professionell, und seine Betreuung hat mir geholfen, meine
+                  Fitnessziele schneller zu erreichen als ich dachte. Er ist
+                  auch sehr motivierend und hat mich immer dazu ermutigt,
+                  weiterzumachen, wenn ich mich unsicher fühlte.”
+                </p>
+                <img />
+                <p>Laura G.</p>
+              </div>
+            </div>
+            <div class="carousel-item mb-3 px-3">
+              <div class="border-box box-shadow">
+                <p>
+                  “Ich kann Coach Gianni nicht genug empfehlen! Seine
+                  Professionalität und Erfahrung sind beeindruckend, und seine
+                  Betreuung hat mir geholfen, meine körperlichen Fähigkeiten und
+                  mein Selbstvertrauen zu verbessern. Ich schätze auch seine
+                  Fähigkeit, mich herauszufordern und mich gleichzeitig zu
+                  motivieren. Wenn du nach einem großartigen Personal Coach
+                  suchst, ist Coach Gianni definitiv die richtige Wahl!”
+                </p>
+                <img />
+                <p>Max Mustermann</p>
+              </div>
+            </div>
+            <div class="carousel-item mb-3 px-3">
+              <div class="border-box box-shadow">
+                <p>
+                  “Coach Gianni ist der beste Personal Coach, den ich je hatte!
+                  Seine Leidenschaft und Hingabe sind unübertroffen, und er hat
+                  mir gezeigt, dass Fitness und Gesundheit ein Lebensstil sind,
+                  der Spaß machen kann. Sein Wissen und seine Fähigkeiten haben
+                  mir geholfen, meine Grenzen zu überschreiten und meine Ziele
+                  zu erreichen.”
+                </p>
+                <img />
+                <p>René C.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex d-md-none justify-content-between">
+          <div class="col-6">
+            <button class="centered px-3" onclick="carouselRatingsPrev()">
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="centered px-3" onclick="carouselRatingsNext()">
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="row d-none d-md-flex justify-content-around">
           <div class="col-lg-3 align-self-start border-box box-shadow mb-3">
             <p>
               “Coach Gianni ist einfach unglaublich! Er ist sehr sachkundig und

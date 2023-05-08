@@ -8,6 +8,16 @@ function carouselPackagesPrev() {
   carouselPackages.prev();
 }
 
+const carouselRatings = new bootstrap.Carousel("#carouselRatings");
+
+function carouselRatingsNext() {
+  carouselRatings.next();
+}
+
+function carouselRatingsPrev() {
+  carouselRatings.prev();
+}
+
 function showP(pId, buttonId) {
   var text = document.getElementById(pId);
   var button = document.getElementById(buttonId);
