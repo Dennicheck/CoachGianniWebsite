@@ -134,10 +134,99 @@
     <!-- ***** Pakete Area ***** -->
     <section class="section my-5 px-3" id="pakete">
       <div>
-        <h2 class="h2-heading text-center my-5">Meine Pakete</h2>
+        <h2 class="h2-heading text-center my-5 px-3">Meine Pakete</h2>
       </div>
       <div class="container">
-        <div class="row d-flex justify-content-between">
+        <div
+          id="carouselPackages"
+          class="carousel carousel-dark slide d-block d-md-none"
+        >
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active mb-3 px-3"
+              aria-current="true"
+              aria-label="Kickoff-Paket"
+            >
+              <div class="border-box box-shadow">
+                <h3 class="h3-heading">Kickoff-Paket</h3>
+                <h5 class="h5-heading">109,-€</h5>
+                <p>
+                  Erstgespräch und Anamnese. Persönliches 1 zu 1 Training nach
+                  deinen Wünschen. Profitiere von einer professionellen und
+                  persönlichen Betreuung.
+                </p>
+                <ul>
+                  <li>Erstgespräch</li>
+                  <li>Anamnese</li>
+                  <li><b>Eine</b> Personal Training Einheit</li>
+                  <li>Ernährungs- und Lifestyle-Tipps</li>
+                </ul>
+              </div>
+            </div>
+            <div class="carousel-item mb-3 px-3" aria-label="Starter-Paket">
+              <div class="border-box box-shadow">
+                <h3 class="h3-heading">Starter-Paket</h3>
+                <h5 class="h5-heading">199,-€</h5>
+                <p>
+                  Um den bestmöglichen Start hinzulegen und eine solide Basis zu
+                  schaffen, ist das Starter-Pack für dich ideal.
+                </p>
+                <ul>
+                  <li>Erstgespräch</li>
+                  <li>Ausführliche Anamnese</li>
+                  <li>Individueller Trainingsplan</li>
+                  <li><b>3</b> Personal Training Einheiten</li>
+                  <li>Whatsapp-Support</li>
+                  <li>Ernährungs- und Lifestyle-Tipps</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="carousel-item mb-3 px-3"
+              aria-label="Durchstarter-Paket"
+            >
+              <div class="border-box box-shadow">
+                <h3 class="h3-heading">Durchstarter-Paket</h3>
+                <h5 class="h5-heading">719,-€</h5>
+                <p>
+                  Hol mit diesem Paket das Maximum aus dir raus. 10
+                  Trainingseinheiten lang werden wir zusammen arbeiten und
+                  gemeinsam in Form einer Rundumbetreuung auf deine Ziele
+                  hinarbeiten, um diese zu erreichen und zu übertreffen!
+                </p>
+                <ul>
+                  <li>Erstgespräch</li>
+                  <li>Ausführliche Anamnese</li>
+                  <li>Individueller Trainingsplan</li>
+                  <li><b>10</b> Personal Training Einheiten</li>
+                  <li>Whatsapp-Support</li>
+                  <li>VideoCall-Support</li>
+                  <li>Ernährungs- und Lifestyle-Tipps</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex d-md-none justify-content-between">
+          <div class="col-6">
+            <button class="centered px-3" onclick="carouselPackagesPrev()">
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="centered px-3" onclick="carouselPackagesNext()">
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="row d-none d-md-flex justify-content-between">
           <div
             class="col-lg-3 align-self-end border-box box-shadow mb-3 order-lg-1 order-3"
           >
