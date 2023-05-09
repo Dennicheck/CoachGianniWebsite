@@ -25,50 +25,56 @@
   </head>
   <body>
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <nav class="main-nav">
-              <!-- ***** Logo Start ***** -->
-              <a href="index.html" class="logo">Coach<em> Gianni</em></a>
-              <!-- ***** Logo End ***** -->
-
-              <!-- ***** Menu Start ***** -->
-              <ul class="nav">
-                <li class="scroll-to-section">
-                  <a href="#top" class="active">Home</a>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="#about-me">About me</a>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="#pakete">Pakete</a>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="#leistungen">Leistungen</a>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="#rezensionen">Rezensionen</a>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="#faq">FAQ</a>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="#jetzt-durchstarten">Jetzt durchstarten</a>
-                </li>
-              </ul>
-              <!-- ***** Menu End ***** -->
-            </nav>
+    <header class="">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Coach Gianni</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#top" class="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pakete">Pakete</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#leistungen">Leistungen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rezensionen">Rezensionen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jetzt-durchstarten"
+                  ><b>Jetzt durchstarten</b></a
+                >
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Hero Section ***** -->
-    <section>
-      <div class="container mb-5 px-3">
+    <section class="my-5 px-3">
+      <div class="container">
         <div class="row">
           <div class="col-md-6 text-md-start text-center">
             <div>
@@ -82,7 +88,9 @@
               </p>
             </div>
             <div>
-              <button onClick="location.href='/#jetzt-durchstarten'"">Jetzt durchstarten</button>
+              <button onClick="location.href='/#jetzt-durchstarten'">
+                Jetzt durchstarten
+              </button>
             </div>
           </div>
           <div class="col-md-6">
@@ -110,7 +118,7 @@
             />
           </div>
           <div class="col-md-6 col-12">
-            <h2 class="h2-heading">About me</h2>
+            <h2 class="h2-heading mb-3">About me</h2>
             <p>
               <b>Hey!</b> Ich bin <b>Coach Gianni</b> und habe bereits über 10
               Jahre Erfahrung im Bereich Kraft- und Fitness-Sport. Meine
@@ -132,9 +140,9 @@
     </section>
 
     <!-- ***** Pakete Area ***** -->
-    <section class="section my-5 px-3" id="pakete">
+    <section class="my-5 px-3" id="pakete">
       <div>
-        <h2 class="h2-heading text-center my-5 px-3">Meine Pakete</h2>
+        <h2 class="h2-heading text-center mb-3">Meine Pakete</h2>
       </div>
       <div class="container">
         <div
@@ -288,9 +296,9 @@
     </section>
 
     <!-- ***** Leistungen Area ***** -->
-    <section class="section my-5 px-3" id="leistungen">
+    <section class="my-5 px-3" id="leistungen">
       <div>
-        <h2 class="h2-heading text-center my-5">Weitere Leistungen</h2>
+        <h2 class="h2-heading text-center mb-3">Weitere Leistungen</h2>
       </div>
       <div class="container">
         <div class="row d-flex justify-content-between mb-5">
@@ -384,9 +392,9 @@
     </section>
 
     <!-- ***** Rezensionen Area ***** -->
-    <section class="section my-5 px-3" id="rezensionen">
+    <section class="my-5 px-3" id="rezensionen">
       <div>
-        <h2 class="h2-heading text-center my-5">Das sagen meine Klienten</h2>
+        <h2 class="h2-heading text-center mb-3">Das sagen meine Klienten</h2>
       </div>
       <div class="container">
         <div
@@ -498,9 +506,9 @@
     </section>
 
     <!-- ***** FAQ Area ***** -->
-    <section class="section my-5 px-3" id="faq">
+    <section class="my-5 px-3" id="faq">
       <div>
-        <h2 class="h2-heading text-center">FAQ</h2>
+        <h2 class="h2-heading text-center mb-3">FAQ</h2>
       </div>
       <div class="container">
         <div>
@@ -644,7 +652,7 @@
     </section>
 
     <!-- ***** Jetzt durchstarten Area***** -->
-    <section class="section my-5 px-3" id="jetzt-durchstarten">
+    <section class="my-5 px-3" id="jetzt-durchstarten">
       <div>
         <h2 class="h2-heading text-center">Jetzt durchstarten</h2>
       </div>
