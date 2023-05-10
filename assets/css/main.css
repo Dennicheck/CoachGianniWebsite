@@ -15,9 +15,8 @@
   color: #3872c2;
 }
 
-body,
 section {
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 p {
@@ -119,6 +118,13 @@ button:active {
   position: relative;
   top: 2px;
   left: 2px;
+}
+
+#navbar-toggler {
+  box-shadow: none;
+  padding: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .contact-form input,
