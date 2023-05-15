@@ -18,14 +18,11 @@ function carouselRatingsPrev() {
   carouselRatings.prev();
 }
 
-function showP(pId, buttonId) {
-  var text = document.getElementById(pId);
+function switchButtonText(buttonId) {
   var button = document.getElementById(buttonId);
-  if (text.style.display == "none") {
-    text.style.display = "block";
+  if (button.innerText == "+") {
     button.innerText = "-";
   } else {
-    text.style.display = "none";
     button.innerText = "+";
   }
 }

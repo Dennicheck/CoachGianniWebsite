@@ -328,11 +328,15 @@
             <button
               class="centered"
               id="service1-button"
-              onclick="showP('service1', 'service1-button')"
+              data-bs-toggle="collapse"
+              data-bs-target="#service1"
+              aria-expanded="false"
+              aria-controls="service1"
+              onclick="switchButtonText(this.id)"
             >
               +
             </button>
-            <p class="service-description" id="service1" style="display: none">
+            <p class="collapse service-description" id="service1">
               Erhalte maßgeschneidertes 1 zu 1 Training, das auf deine Wünsche
               abgestimmt ist. Genieße eine professionelle und persönliche
               Betreuung, um das Beste aus deinem Training herauszuholen. (79€)
@@ -349,11 +353,15 @@
               class="centered align-self-end"
               id="service2-button"
               style="margin-top: 52px"
-              onclick="showP('service2', 'service2-button')"
+              data-bs-toggle="collapse"
+              data-bs-target="#service2"
+              aria-expanded="false"
+              aria-controls="service2"
+              onclick="switchButtonText(this.id)"
             >
               +
             </button>
-            <p class="service-description" id="service2" style="display: none">
+            <p class="collapse service-description" id="service2">
               Der Personal Training 5er Block mit fünf Personal Training
               Einheiten kann ganz nach deinen Wünschen zeitlich und örtlich
               eingeteilt werden. Profitiere von einem Mengenrabatt in Höhe von
@@ -371,11 +379,15 @@
               class="centered"
               id="service3-button"
               style="margin-top: 52px"
-              onclick="showP('service3', 'service3-button')"
+              data-bs-toggle="collapse"
+              data-bs-target="#service3"
+              aria-expanded="false"
+              aria-controls="service3"
+              onclick="switchButtonText(this.id)"
             >
               +
             </button>
-            <p class="service-description" id="service3" style="display: none">
+            <p class="collapse service-description" id="service3">
               Zehn Personal Training Einheiten. Die Einheiten können ganz nach
               deinen Wünschen zeitlich und örtlich eingeteilt werden. Profitiere
               von einem Mengenrabatt und spare über 20%. Ideal als Geschenk
@@ -394,11 +406,15 @@
             <button
               class="centered"
               id="service4-button"
-              onclick="showP('service4', 'service4-button')"
+              data-bs-toggle="collapse"
+              data-bs-target="#service4"
+              aria-expanded="false"
+              aria-controls="service4"
+              onclick="switchButtonText(this.id)"
             >
               +
             </button>
-            <p class="service-description" id="service4" style="display: none">
+            <p class="collapse service-description" id="service4">
               Sichern Sie sich Ihren individuellen Trainingsplan! Ganz auf Ihre
               Ziele, Bedürfnisse und Lifestyle angepasst! (49€)
             </p>
@@ -540,13 +556,17 @@
               <button
                 id="faq1-button"
                 class="col-1"
-                onclick="showP('faq1', 'faq1-button')"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1"
+                aria-expanded="false"
+                aria-controls="faq1"
+                onclick="switchButtonText(this.id)"
               >
                 +
               </button>
             </div>
             <div>
-              <p id="faq1" style="display: none" class="mb-5">
+              <p id="faq1" class="collapse">
                 Beim ersten Treffen werde ich dir hauptsächlich zuhören, um
                 deine Ziele & Erfahrungen im Bereich Training und Ernährung
                 sowie deinen Gesundheitszustand zu verstehen. Des Weiteren
@@ -565,13 +585,17 @@
               <button
                 id="faq2-button"
                 class="col-1"
-                onclick="showP('faq2', 'faq2-button')"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+                aria-expanded="false"
+                aria-controls="faq2"
+                onclick="switchButtonText(this.id)"
               >
                 +
               </button>
             </div>
             <div>
-              <p id="faq2" style="display: none" class="mb-5">
+              <p id="faq2" class="collapse">
                 Bei einer Anamnese stellen wir deine Grundfitness mit Hilfe von
                 Fragen fest, die du mir ehrlich beantwortest. Außerdem führen
                 wir am Ende noch eine Muskelfunktionsprüfung durch, in der wir
@@ -589,13 +613,17 @@
               <button
                 id="faq3-button"
                 class="col-1"
-                onclick="showP('faq3', 'faq3-button')"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+                aria-expanded="false"
+                aria-controls="faq3"
+                onclick="switchButtonText(this.id)"
               >
                 +
               </button>
             </div>
             <div>
-              <p id="faq3" style="display: none" class="mb-5">
+              <p id="faq3" class="collapse">
                 In der Regel geht eine Personal Trainingseinheit über 60 oder 90
                 Minuten. Auf Nachfrage kann die Dauer einer Einheit gerne
                 individuell auf deine Wünsche und Vorstellungen angepasst
@@ -611,13 +639,17 @@
               <button
                 id="faq4-button"
                 class="col-1"
-                onclick="showP('faq4', 'faq4-button')"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4"
+                aria-expanded="false"
+                aria-controls="faq4"
+                onclick="switchButtonText(this.id)"
               >
                 +
               </button>
             </div>
             <div>
-              <p id="faq4" style="display: none" class="mb-5">
+              <p id="faq4" class="collapse">
                 Ich richte mich hierbei nach deinen Bedürfnissen. Das Personal
                 Training kann im Fitness-Studio, im Büro, bei dir zu Hause, oder
                 auch in der freien Natur stattfinden.
@@ -630,13 +662,17 @@
               <button
                 id="faq5-button"
                 class="col-1"
-                onclick="showP('faq5', 'faq5-button')"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5"
+                aria-expanded="false"
+                aria-controls="faq5"
+                onclick="switchButtonText(this.id)"
               >
                 +
               </button>
             </div>
             <div>
-              <p id="faq5" style="display: none" class="mb-5">
+              <p id="faq5" class="collapse">
                 Bei Verhinderung können wir einen neuen Termin vereinbaren.
                 Termine können bis spätestens 24h vorher abgesagt, bzw.
                 verschoben werden, ansonsten werden sie verrechnet.
@@ -651,13 +687,17 @@
               <button
                 id="faq6-button"
                 class="col-1"
-                onclick="showP('faq6', 'faq6-button')"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq6"
+                aria-expanded="false"
+                aria-controls="faq6"
+                onclick="switchButtonText(this.id)"
               >
                 +
               </button>
             </div>
             <div>
-              <p id="faq6" style="display: none" class="mb-5">
+              <p id="faq6" class="collapse">
                 Es kann per Banküberweisung, Barzahlung oder PayPal bezahlt
                 werden. Die Trainings werden als Vorauszahlung beglichen.
               </p>
