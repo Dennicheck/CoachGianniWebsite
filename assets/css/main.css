@@ -32,10 +32,16 @@ p {
   animation: bigger-text 0.5s ease-out 0s 1 normal forwards;
   font-family: Roboto;
   text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
-  font-size: 3rem;
+  font-size: 5rem;
   letter-spacing: -1px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .h1-heading {
+    font-size: 3rem;
+  }
 }
 
 @keyframes bigger-text {
