@@ -10,9 +10,15 @@
   font-weight: bold;
 }
 
+body {
+  background-image: url("../images/blob-scene-haikei.svg");
+  background-size: cover;
+  background-origin:border;
+}
+
 * {
   font-family: Roboto;
-  color: #3872c2;
+  color: #ffffff;
 }
 
 section {
@@ -31,7 +37,6 @@ p {
 .h1-heading {
   animation: bigger-text 1s ease-out 0s 1 normal forwards;
   font-family: Roboto;
-  text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
   font-size: 5rem;
   letter-spacing: -1px;
   font-weight: bold;
@@ -91,7 +96,7 @@ p {
   border: 1px solid #ddd;
 }
 .box-shadow {
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 10px rgba(182, 182, 182, 0.2);
 }
 
 .service-border-box {
@@ -107,14 +112,13 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  aspect-ratio: 1/1;
   max-width: 100%;
   max-height: 100%;
   transition: all .2s ease-in-out;
 }
 
 .service-image:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .service-description {
@@ -122,7 +126,7 @@ p {
 }
 
 button {
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 10px rgba(52, 127, 177, 0.2);
   background-color: #3872c2;
   color: white;
   text-transform: uppercase;
@@ -132,6 +136,11 @@ button {
   padding: 8px 48px 8px 48px;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+.action-button {
+  font-size: 22px;
+  font-weight: bold;
 }
 
 button:active {
@@ -151,7 +160,8 @@ button:active {
 .contact-form input,
 .contact-form textarea {
   border: 1px solid #ddd;
-  background-color: #fff;
+  background-color: #ffffff;
+  color: #212529;
   width: 100%;
   height: 40px;
   outline: none;
