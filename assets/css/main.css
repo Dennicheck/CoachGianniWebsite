@@ -13,7 +13,14 @@
 body {
   background-image: url("../images/blob-scene-haikei.svg");
   background-size: cover;
-  background-origin: border;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("../images/blob-scene-haikei-mobile.svg");
+  }
 }
 
 * {
@@ -131,6 +138,7 @@ button {
   color: white;
   text-transform: uppercase;
   letter-spacing: -0.1px;
+  border-radius: 10px;
   font-size: 16px;
   border: none;
   padding: 8px 48px 8px 48px;
@@ -141,6 +149,17 @@ button {
 .action-button {
   font-size: 22px;
   font-weight: bold;
+  padding: 12px 64px 12px 64px;
+  box-shadow: 0px 5px 40px 10px rgba(183, 208, 255, 0.4);
+  background-color: white;
+  color: #3872c2;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .action-button {
+    padding: 12px 32px 12px 32px;
+  }
 }
 
 button:active {
