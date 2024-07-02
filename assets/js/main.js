@@ -1,20 +1,20 @@
-const carouselPackages = new bootstrap.Carousel("#carouselPackages");
-
 function carouselPackagesNext() {
+  carouselPackages = new bootstrap.Carousel("#carouselPackages");
   carouselPackages.next();
 }
 
 function carouselPackagesPrev() {
+  carouselPackages = new bootstrap.Carousel("#carouselPackages");
   carouselPackages.prev();
 }
 
-const carouselRatings = new bootstrap.Carousel("#carouselRatings");
-
 function carouselRatingsNext() {
+  carouselRatings = new bootstrap.Carousel("#carouselRatings");
   carouselRatings.next();
 }
 
 function carouselRatingsPrev() {
+  carouselRatings = new bootstrap.Carousel("#carouselRatings");
   carouselRatings.prev();
 }
 
